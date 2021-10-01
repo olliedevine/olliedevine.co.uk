@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=600, initial-scale=1.0">
+        <meta name="description" content="Ollie Devine | About, Portfolio, Fluff, Contact">
+        <meta name="robots" content="index, follow">
+        <link rel="stylesheet" href="res/styles/main.css">
+        <link rel="shortcut icon" type="image/png" href="res/imgs/favicon.png">
+        <title>ollie devine</title>
+    </head>
+    <body id="frontpage">
+        <div class="frontpage">
+            <div style="grid-area:picture">
+                <img src="res/imgs/cover.jpg" class="cover" alt="Cover image; a Tokyo alleyway at night">
+            </div>
+            <div style="grid-area:content">
+                <h1 id="title">ollie devine</h1>
+                <nav>
+                    <ul class="mainnav">
+                        <li class="bullet" onclick="SetVisibleSection('about');">
+                            <a href="javascript:void(0)">about</a>
+                        </li>
+                        <li>
+                            <section id="about">
+                                <p>
+                                    <!-- bio -->
+                                </p>
+                            </section>
+                        </li>
+                        <li class="bullet" onclick="SetVisibleSection('portfolio');">
+                            <a href="javascript:void(0)">portfolio</a>
+                        </li>
+                        <li>
+                            <section id="portfolio">
+                                <p>
+                                    <a href="portfolio/thiswebsite/">this website</a><br>
+                                    <a href="portfolio/democratika/">www.the-democratika.com</a><br>
+                                    <a href="portfolio/disa/">disa</a>
+                                </p>
+                            </section>
+                        </li>
+                        <li class="bullet" onclick="SetVisibleSection('fluff');">
+                            <a href="javascript:void(0)">fluff</a>
+                        </li>
+                        <li>
+                            <section id="fluff">
+                                <p>
+                                    <a href="fluff/photography/">photography</a><br>
+                                    <a href="fluff/musicthoughts/">music thoughts</a><br>
+                                    <a href="fluff/experiments/">experiments</a>
+                                </p>
+                            </section>
+                        </li>
+                        <li class="bullet" onclick="SetVisibleSection('contact');">
+                            <a href="javascript:void(0)">contact</a>
+                        </li>
+                        <li>
+                            <section id="contact">
+                                <p>
+                                    <!-- contact details go here -->
+                                </p>
+                            </section>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <script src="res/scripts/frontpage.js"></script>
+    </body>
+</html>

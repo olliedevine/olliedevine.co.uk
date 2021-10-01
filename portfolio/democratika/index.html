@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../../res/styles/main.css">
+        <link rel="stylesheet" href="../../res/styles/democratika.css">
+        <link rel="shortcut icon" type="image/png" href="../../res/imgs/favicon.png">
+        <title>this website - portfolio - ollie devine</title>
+    </head>
+    <body>
+        <div class="page">
+            <section style="grid-area: overview">
+                <h1>www.the-democratika.com</h1>
+                <h2>overview</h2>
+                <p>
+                    <a href="https://nationstates.net/">NationStates</a> is a webgame in which players take control of a virtual nation, assuming the role of its leadership (whatever structure that might take) and engaging in various socio-political discourses.
+                    NationStates alone does not have much gameplay, so it is often up to communities of nations, known as regions, to band together and make their own structures for whatever it is they'd like to get up to.
+                    The region my nation is home to, the Democratika, elected to establish frameworks for creative writing and sharing/discussing materials and content created as part of a contigent "canon" universe, with contained lore and history.
+                    As part of these efforts I assembled and deployed a website solution which contains both a forum and wiki system, which are now integral parts of the region.
+                </p>
+            </section>
+            <section style="grid-area: forum">
+                <h2>forum</h2>
+                <img src="forum.png">
+                <p>
+                    The forum is a deployment of MyBB, which is a PHP-based forum system, running through IIS on my webserver.
+                    I chose MyBB because it had a desirable featureset, nearly two decades of community support and was nice and lightweight for my webserver's workload.<br><br>
+                    Because the website has an SSL certificate I can enforce HTTPS for encrypted communications when users log in/out or make posts and comments.
+                    The database system used is SQLCipher, a fork of SQLite that supports database encryption.<br><br>
+                    MyBB features allow me to delegate administration responsibilities to other members, meaning that the system can generally be left alone and operate without my presence.
+                </p>
+            </section>
+            <section style="grid-area: wiki">
+                <h2>wiki</h2>
+                <img src="wiki.png">
+                <p>
+                    The wiki is a deployment of MediaWiki, which is a PHP-based wiki system running through IIS on my webserver.
+                    I chose MediaWiki because it is well-known as the wiki system that Wikipedia uses, which means there is loads of community support available.
+                    Again, HTTPS allows for secure connections when users log in/out or make contributions to the wiki. It has been effective in stopping spammers.<br><br>
+                    A particularly attractive part of MediaWiki is the wealth of readily available templates that can be copied into the system for use in articles, including all of Wikipedia's templates.
+                    This has allowed our Wiki's appearance to be much more professional whilst also making the wiki more efficient to use through providing shortcuts for users.
+                </p>
+            </section>
+            <section style="grid-area: impact">
+                <h2>impact of the website</h2>
+                <p>
+                    The website has been extremely successful for the region.<br><br>
+                    We have had a 71% increase in members since the website went live, and participation in the creative writing side of the region has been quoted as a major point of attraction for new members.
+                    The quality of content produced has also become noticeably better.
+                    The increase in activity and notoriety as a quality region even saw us featured on the front page of NationStates in September 2021.
+                </p>
+            </section>
+        </div>
+    </body>
+</html>

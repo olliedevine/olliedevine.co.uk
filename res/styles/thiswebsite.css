@@ -1,0 +1,22 @@
+/* desktop */
+@media only screen and (min-width: 1000px) {
+    img {
+        width: calc(50% - 20px) !important;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 999px) {
+    img {
+        width: calc(100% - 10px) !important;
+    }
+}
+
+img {
+    margin: 5px;
+    padding: 0;
+}
+
+.page {
+    margin-bottom: 50px;
+}

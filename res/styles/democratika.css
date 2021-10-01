@@ -1,0 +1,42 @@
+/* desktop */
+@media only screen and (min-width: 1000px) {
+    img {
+        width: 500px;
+        float: left;
+        margin-right: 20px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 999px) {
+    img {
+        width: 100%;
+    }
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+        "overview"
+        "forum"
+        "wiki"
+        "impact";
+
+    margin-bottom: 50px;
+}
+
+.page>section {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+img {
+    height: auto;
+    border: 1px solid black;
+}
+
+h2 {
+    font-weight: bold;
+}

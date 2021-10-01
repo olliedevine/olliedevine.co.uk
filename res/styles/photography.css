@@ -1,0 +1,17 @@
+/* desktop */
+@media only screen and (min-width: 1000px) {
+    .gallerypreview>img {
+        width: 300px;
+        height: 450px;
+        object-fit: cover;
+    
+        background-size: contain;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 999px) {
+    .gallerypreview {
+        display: none;
+    }
+}
