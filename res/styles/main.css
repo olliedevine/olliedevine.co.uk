@@ -34,9 +34,8 @@
 
 /* mobile */
 @media only screen and (max-width: 999px) {
-    #frontpage {
+    body {
         max-width: 500px;
-        margin: auto;
     }
     
     .frontpage {
@@ -75,7 +74,6 @@
 
 body {
     background-color: #FFFFFF;
-    max-width: 1920px;
     margin: auto;
 }
 
@@ -175,6 +173,17 @@ a:active {
 
 .error {
     text-align: center;
+}
+
+.lightswitch {
+    text-align: right;
+}
+
+#lightswitch {
+    display: inline;
+    margin: 20px;
+    height: 100px;
+    width: auto;
 }
 
 #about {

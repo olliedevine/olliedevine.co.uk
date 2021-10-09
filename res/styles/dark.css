@@ -1,0 +1,13 @@
+/* overrides for dark theme */
+
+body {
+    background-color: #111111;
+}
+
+h1, h2, p, ul, a, a:visited, .bullet>a {
+    color: #ffffff;
+}
+
+.bullet>a {
+    text-decoration: none;
+}
